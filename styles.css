@@ -1,25 +1,165 @@
-Fonts
-Add to your CSS Under Imported Fonts
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-H1, H2
-Kavoon
-All other text
-Inter
-H1
-3em
-NAV H2
-1.5em
-H2
-2em
-H3
-1.5em
-H4
-1.15em
-Colors
-Teal :#4CA7C0
-Purple: #484FB7
-Lavender: #6B8FE7
-Yellow: #E9BB57; 
-Pink:#D9526F;
-Dark-gray:#1E1E1E; 
-White:#ffffff; 
+/* IMPORTED FONTS ---- */
+
+
+/* CSS REST */
+h1, h2{
+    font-family: 'Kavoon';
+    color: var(--White);
+}
+
+body{
+    font-family: "Inter";
+}
+
+h1{
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+nav h2{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 2em;
+    padding-left: 10px;
+}
+
+h3{
+    font-size: 1.5em;
+    color: var(--Yellow);
+    padding-left: 10px;
+}
+
+h4{
+    font-size: 1.15em;
+}
+
+.div_footer p{
+    margin-bottom: 0;
+}
+
+.section_header p{
+    color: var(--White);
+    text-align: center;
+    font-style: italic;
+
+}
+.section_menu{
+    background-color: var(--Yellow);
+    padding-bottom: 20px;
+}
+.section_menu h3{
+    color: var(--Dark-gray);
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.section_menu ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.section_menu li{
+    background-color: var(--White);
+    padding: 10px;
+    margin-bottom: 10px; /* Adds space between each box */
+    margin-left:30px;
+    margin-right: 30px;
+    text-align: center; /* Centers the text */
+    color: var(--Purple);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section_services h2{
+    margin-bottom: 5px;
+}
+.section_services h3{
+    margin: 0;
+}
+
+.section_services section{
+  align-items: center;
+  background-color: var(--White);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.section_services h4{
+    color: var(--Purple);
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.section_services p{
+    padding: 20px;
+    padding-top: 0;
+
+}
+
+.section_services img{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.section_why_us{
+    background-color: var(--Pink);
+}
+
+.div_choose_us {
+    display: flex;
+    flex-direction: column;
+}
+.div_choose_us div{
+      background-color: var(--White);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
+/* CSS REST ---- */
+
+/* ROOT VARIABLES */
+:root{
+--Teal: #4CA7C0;
+--Purple: #484FB7;
+--Lavender: #6B8FE7;
+--Yellow: #E9BB57; 
+--Pink:#D9526F;
+--Dark-gray:#1E1E1E; 
+--White:#ffffff; 
+}
+/* ROOT VARIABLES ---- */
+
+
+
+/* GLOBAL STYLES */
+body{
+    
+    background-color: var(--Lavender);
+    margin: 0;
+}
+
+div.page_container{
+    max-width: 450px;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--Purple);
+    padding: 0;
+}
+/* GLOBAL STYLES ---- */
