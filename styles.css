@@ -1,3 +1,5 @@
+/* CSS BY ASHLEY OLESEN */
+
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 /* IMPORTED FONTS ---- */
@@ -81,7 +83,7 @@ ul{
     margin-left:30px;
     margin-right: 30px;
     text-align: center; /* Centers the text */
-    color: var(--Purple);
+    color: var(--Lavender);
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -123,14 +125,127 @@ ul{
 
 .div_choose_us {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+  width: 450px; /* Example width for the container */
 }
 .div_choose_us div{
-      background-color: var(--White);
-  margin: 20px;
+  margin: 15px auto;
   border-radius: 10px;
+
 }
 
+.div_box1, .div_box2, .div_box3, .div_box4{
+     height: 100px;
+ width: 180px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: lightblue;
+  font-weight: bold;
+  color: var(--Dark-gray);
+}
+
+.div_box1 p, .div_box2 p, .div_box3 p, .div_box4 p{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.div_box1{
+    background-color: var(--Teal);
+}
+
+.div_box2{
+    background-color: var(--Lavender);
+}
+
+.div_box3{
+    background-color: var(--Yellow);
+}
+
+.div_box4{
+    background-color: var(--White);
+}
+
+.section_pricing table{
+    margin: 0 auto;
+    background-color: var(--Yellow);
+}
+
+.section_pricing h2{
+    margin-bottom: 5px;
+}
+
+.section_pricing h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.section_pricing th{
+    text-align:center;
+    height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section_pricing td{
+    background-color: var(--White);
+    height: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section_pricing td:nth-child(odd){
+    width: 140px;
+}
+
+.section_pricing td:nth-child(even){
+    width: 60px;
+}
+
+.section_schedule{
+    background-color: var(--Pink);
+    color: var(--White);
+    padding-bottom: 10px;
+}
+
+.section_schedule h2{
+    padding-top: 10px;
+}
+
+.section_schedule p{
+    padding-left: 10px;
+    margin: 16px 10px;
+}
+
+.button_schedule{
+  background-color: var(--White);
+  color: var(--Dark-gray);
+  border: none;
+  padding: 15px 30px; 
+  border-radius: 10px; 
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 3px 5px 3px var(--Dark-gray);
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+footer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
+
+.div_footer{
+    display: flex;
+    justify-content: space-evenly;   
+}
+.div_footer p, .div_footer a{
+    color: var(--White);
+    margin: 5px;
+
+}
 
 /* CSS REST ---- */
 
